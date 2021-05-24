@@ -20,7 +20,9 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start":"node lib/appointment-api.js",
+    "start:dev": "nodemon lib/appointment-api.js",
+    "test": "mocha"
   },
   "dependencies": {
     "api-common": "^0.0.0",
